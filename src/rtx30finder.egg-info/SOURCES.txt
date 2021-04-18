@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/rtx30finder/__init__.py
+src/rtx30finder/main.py
+src/rtx30finder.egg-info/PKG-INFO
+src/rtx30finder.egg-info/SOURCES.txt
+src/rtx30finder.egg-info/dependency_links.txt
+src/rtx30finder.egg-info/top_level.txt
