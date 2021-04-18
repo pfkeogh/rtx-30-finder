@@ -10,9 +10,11 @@ Scrapes for in stock cards and will return you the URL(s) of all stocked cards i
 [GitHub](https://github.com/pfkeogh/rtx-30-finder)
 
 ### Usage
-
+####CLI
 ```
-TBD
+pip install rtx30finder
+
+rtx30finder
 ```  
 If a card is found to be in stock, its info will be be printed along with the URL for you to purchase it ASAP!  
 

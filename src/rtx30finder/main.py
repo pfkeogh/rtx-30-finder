@@ -79,7 +79,9 @@ def check_newegg():
     scraper.search()
 
 
-if __name__ == '__main__':
+def commandline_handler():
     check_newegg()
 
 
+if __name__ == '__main__':
+    check_newegg()
