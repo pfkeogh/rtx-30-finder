@@ -2,7 +2,12 @@
 
 *Work In Progress!*
 
-Looking for a Nvidia 30 series Card? Tired of manually looking through <website(s)> just to see pages of out of stock cards? Unwilling to pay resellers crazy markups? 
+Looking for a Nvidia 30 series Card? 
+
+Tired of manually looking through <website(s)> just to see pages of out of stock cards? 
+
+Unwilling to pay resellers crazy markups?
+ 
 Automate your quest to find a card.
 
 Scrapes for in stock cards and will return you the URL(s) of all stocked cards it may find!  
@@ -10,7 +15,7 @@ Scrapes for in stock cards and will return you the URL(s) of all stocked cards i
 [GitHub](https://github.com/pfkeogh/rtx-30-finder)
 
 ### Usage
-####CLI
+##### CLI
 ```
 pip install rtx30finder
 
@@ -24,6 +29,13 @@ just NewEgg for now
 
 ### Run this from your phone as an IOS Shortcut
 enable remote login // SSH
+
 System Preferences -> Sharing -> Enable Remote Login
+
+install via pip on the remote host
+
 use "Run script over SSH"
+
+input:
+/usr/local/bin/rtx30finder
 
