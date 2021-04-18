@@ -64,17 +64,18 @@ class NeweggScraper(HTMLParser):
                 search_text = file.read()
             self.feed(search_text)
 
-            print(f"items:{self.items_encountered}")
             for key, val in self.card_data.items():
                 if "OUT OF STOCK" not in val:
                     print(f"Stocked!: {val}")
-                    print(f"HURRY - go to: {self.card_urls[key]}")
+                    print(f"Go to: {self.card_urls[key]}")
             self.reset_page_vars()
+        print(f"Cards searched: {self.items_encountered}")
 
 
 def check_newegg():
-    path = "/Users/patrickkeogh/Library/Application Support/JetBrains/PyCharm2020.2/scratches/scratch.html"
     scraper = NeweggScraper()
+    # path = "/Users/patrickkeogh/Library/Application Support/JetBrains/PyCharm2020.2/scratches/scratch.html"
+    # scraper.search(path)
     scraper.search()
 
 

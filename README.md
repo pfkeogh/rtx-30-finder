@@ -12,13 +12,12 @@ Scrapes for in stock cards and will return you the URL(s) of all stocked cards i
 ### Usage
 
 ```
-
-
+TBD
 ```  
 If a card is found to be in stock, its info will be be printed along with the URL for you to purchase it ASAP!  
 
 ### Supported Websites:
-just NewEgg for now! 
+just NewEgg for now 
 
 
 ### Run this from your phone as an IOS Shortcut
