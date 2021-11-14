@@ -7,7 +7,7 @@ Rough stab at scraping for in stock cards.
 ### Usage
 ##### CLI
 ```
-pip install rtx30finder
+pip install --index-url https://test.pypi.org/simple/ pip install rtx30finder
 
 rtx30finder
 ```  
